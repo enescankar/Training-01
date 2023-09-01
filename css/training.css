@@ -23,6 +23,13 @@ box-sizing: border-box;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-height: 600px;
    }
+   .grid-container2  {
+    
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: 600px;
+    column-gap: 80px;
+   }
 
 .container {
     max-width: 1440px;
@@ -31,7 +38,7 @@ box-sizing: border-box;
 }
 
 .grid-item {
-    padding: 24px;
+    
     }
 
 .button {
@@ -69,8 +76,19 @@ box-sizing: border-box;
     padding: 20px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.forum {
+    background-color: #FFF0F5;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.input {
+    width: 50%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
   }
