@@ -56,3 +56,21 @@ box-sizing: border-box;
     font-size: 16px;
     cursor: pointer;
 }
+
+.bakery {
+    background-color: pink;
+    padding: 40px;
+
+}
+
+.bakery2 {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
