@@ -22,6 +22,7 @@ box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-height: 600px;
+    row-gap: 40px;
    }
    .grid-container2  {
     
